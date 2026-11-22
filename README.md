@@ -21,12 +21,11 @@ python3 main.py
 ## Dependencies
 - Python 3 standard library only (`os`, `struct`, `zlib`). No third-party packages,
   no Pillow, no network access at runtime. All news content is hardcoded in `main.py`.
-- Font is an inline 5x7 bitmap font defined in `font.py` (no external font files).
+- Font is an inline 5x7 bitmap font defined inline in `main.py` (no external font files).
 
 ## Repository structure
 ```
 main.py            # entry point (pure stdlib PNG generator)
-font.py            # inline 5x7 bitmap font (defined in code)
 README.md          # this file
 LICENSE            # MIT license
 /output/entry.png  # generated output (created at runtime)
